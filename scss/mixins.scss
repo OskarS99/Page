@@ -21,3 +21,9 @@
     margin-bottom: 30px;
   }
 }
+
+@mixin clearFix {
+  content: "";
+  display: block;
+  clear: both;
+}
