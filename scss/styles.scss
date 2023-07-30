@@ -11,6 +11,9 @@
   li {
     float: left;
     width: (100% / 6);
+    @include mQ(767px) {
+      width: 100%;
+    }
   }
   a {
     color: $offWhite;
@@ -20,7 +23,7 @@
     text-align: center;
 
     &:hover {
-      background: #333;
+      background: lighten($deepBlue, 6);
     }
   }
 }
@@ -32,11 +35,13 @@ section h1 {
 
 .lead-banner {
   @include banner;
+  margin-bottom: 20px;
   text-align: right;
 }
 
 .lessons-banner {
   @include banner;
+  margin-bottom: 20px;
   li {
     text-transform: uppercase;
     font-size: 20px;
@@ -62,10 +67,17 @@ section h1 {
     color: $deepBlue;
     font-weight: bold;
     &:hover {
-      color: red;
+      color: complement($deepBlue);
     }
   }
   ul {
     @include clearFix;
+  }
+}
+
+#projects li {
+  @include grid(4, 2%);
+  img {
+    width: 100%;
   }
 }
