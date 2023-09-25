@@ -5,16 +5,14 @@
 https://oskars99.github.io/Simple-Website-SASS/
 
 ## Descritpion
-
+A website tab design that contains several sections
 
 ## Used Technology
 ### HTML
 ### CSS
-### CSS Framework
-   - SCSS
-### JavaScript
+### SASS
 
 ## Available Scripts
 In the project directory, you can run:
 
-### `npm start`
+
