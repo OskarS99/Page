@@ -11,7 +11,7 @@ https://oskars99.github.io/Simple-Website-SASS/
 ### HTML
 ### CSS
 ### CSS Framework
-    - SCSS
+   - SCSS
 ### JavaScript
 
 ## Available Scripts
