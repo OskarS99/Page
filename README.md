@@ -12,7 +12,5 @@ A website tab design that contains several sections
 ### CSS
 ### SASS
 
-## Available Scripts
-In the project directory, you can run:
 
 
